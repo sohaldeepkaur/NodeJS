@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # configure node.js repo
-
-curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
+sudo apt-get install curl python-software-properties
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 # install node.js
 apt install nodejs -y
