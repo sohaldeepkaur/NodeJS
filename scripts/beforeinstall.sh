@@ -26,7 +26,8 @@ sudo apt-get install npm
 #apt install nodejs -y
 
 # create systemd service
-cat > /etc/init/nodejs.service <<'EOF'
+cat > /etc/systemd/system/nodejs.service <<'EOF'
+#cat > /etc/init/nodejs.service <<'EOF'
 [Unit]
 Description=Node.js App
 After=network.target
