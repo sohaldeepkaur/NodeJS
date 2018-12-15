@@ -1,4 +1,7 @@
 #!/bin/bash
 
-start node.js app service
+#start node.js app service
 #service restart nodejs
+
+
+sudo service nodejs.service start
