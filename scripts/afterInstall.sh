@@ -3,5 +3,5 @@
 #start node.js app service
 #service restart nodejs
 
-
-sudo service nodejs.service start
+pm2 restart nodejs
+#sudo service nodejs.service start
